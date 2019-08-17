@@ -25,6 +25,10 @@
     }
 
     function highlightFilenameCode(code, option) {
+        if(option === null || Object.keys(option).length == 0) {
+            return;
+        }
+
         code.style.paddingTop = '2.2em';
         code.style.position = 'relative';
 

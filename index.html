@@ -11,6 +11,7 @@
         hljs.initHighlightFilenameOnLoad([
             {filename: 'main.c'},
             {filename: 'program.py', backgroundColor: 'white', color: '#000'},
+            null,
             {filename: 'main.cpp', backgroundColor: '#111'},
         ]);
     </script>
@@ -31,6 +32,7 @@ int main() {
     return 0;
 }</code>
         </pre>
+
         <h2>Example 2</h2>
         <pre>
             <code># coding: utf-8
@@ -43,7 +45,13 @@ if __name__ == '__main__':
     main()</code>
         </pre>
 
-        <h2>Example 3 (scroll)</h2>
+        <h2>Example 3 (not make filename)</h2>
+        <pre>
+            <code>$ echo hoge
+hoge</code>
+        </pre>
+
+        <h2>Example 4 (scroll)</h2>
         <div style="width: 100px;">
             <pre>
                 <code>#include &lt;iostream&gt;
