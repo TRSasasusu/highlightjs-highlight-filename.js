@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+    <script src="./highlightjs-highlight-filename.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+        hljs.initHighlightFilenameOnLoad([
+            {filename: 'main.c'},
+            {filename: 'program.py', backgroundColor: 'white', color: '#000'},
+            {filename: 'main.cpp', backgroundColor: '#111'},
+        ]);
+    </script>
+    </head>
+    <body>
+        <h1>highlightjs-highlight-filename.js Examples</h1>
+        <h2>Example 1</h2>
+        <pre>
+            <code>#include &lt;stdio.h&gt;
+
+void print_text(char[] text) {
+    printf("%s\n", text);
+}
+
+int main() {
+    printf("hoge\n");
+    print_text("foobar");
+    return 0;
+}</code>
+        </pre>
+        <h2>Example 2</h2>
+        <pre>
+            <code># coding: utf-8
+
+def main():
+    print('hoge')
+
+
+if __name__ == '__main__':
+    main()</code>
+        </pre>
+
+        <h2>Example 3 (scroll)</h2>
+        <div style="width: 100px;">
+            <pre>
+                <code>#include &lt;iostream&gt;
+auto main() -&gt; int {
+    using namespace std;
+    cout &lt;&lt; "this is too long sentence......" &lt;&lt; endl;
+    return 0;
+}
+                </code>
+            </pre>
+        </div>
+    </body>
+</html>
