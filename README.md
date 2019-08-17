@@ -8,7 +8,7 @@ Filename highlighting plugin for [Highlight.js](https://highlightjs.org/)
 Get from CDN,
 
 ```
-<script src="//cdn.jsdelivr.net/gh/TRSasasusu/highlightjs-highlight-filename.js@1.0.0/highlightjs-highlight-filename.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/TRSasasusu/highlightjs-highlight-filename.js@1.0.1/highlightjs-highlight-filename.min.js"></script>
 ```
 
 or download from this repository.
